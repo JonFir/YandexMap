@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BA48FC14C8845292B17C132 /* MapPage.html in Resources */ = {isa = PBXBuildFile; fileRef = 1BA48340679E5FF2400E48EE /* MapPage.html */; };
 		73BD260B1E1164B10020EA8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BD260A1E1164B10020EA8D /* AppDelegate.swift */; };
 		73BD260D1E1164B10020EA8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BD260C1E1164B10020EA8D /* ViewController.swift */; };
 		73BD26101E1164B10020EA8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73BD260E1E1164B10020EA8D /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		73BD26181E1164B10020EA8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73BD26161E1164B10020EA8D /* LaunchScreen.storyboard */; };
 		73BD26231E1164B10020EA8D /* YandexMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BD26221E1164B10020EA8D /* YandexMapTests.swift */; };
 		73BD262E1E1164B10020EA8D /* YandexMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BD262D1E1164B10020EA8D /* YandexMapUITests.swift */; };
+		73BD263C1E1166610020EA8D /* YandexMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BD263B1E1166610020EA8D /* YandexMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BA48340679E5FF2400E48EE /* MapPage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MapPage.html; sourceTree = "<group>"; };
 		73BD26071E1164B10020EA8D /* YandexMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YandexMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73BD260A1E1164B10020EA8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73BD260C1E1164B10020EA8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		73BD26291E1164B10020EA8D /* YandexMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YandexMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73BD262D1E1164B10020EA8D /* YandexMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YandexMapUITests.swift; sourceTree = "<group>"; };
 		73BD262F1E1164B10020EA8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73BD263B1E1166610020EA8D /* YandexMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YandexMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		73BD26091E1164B10020EA8D /* YandexMap */ = {
 			isa = PBXGroup;
 			children = (
+				73BD263D1E1167B60020EA8D /* maps */,
 				73BD260A1E1164B10020EA8D /* AppDelegate.swift */,
 				73BD260C1E1164B10020EA8D /* ViewController.swift */,
 				73BD260E1E1164B10020EA8D /* Main.storyboard */,
@@ -126,6 +131,15 @@
 				73BD262F1E1164B10020EA8D /* Info.plist */,
 			);
 			path = YandexMapUITests;
+			sourceTree = "<group>";
+		};
+		73BD263D1E1167B60020EA8D /* maps */ = {
+			isa = PBXGroup;
+			children = (
+				73BD263B1E1166610020EA8D /* YandexMap.swift */,
+				1BA48340679E5FF2400E48EE /* MapPage.html */,
+			);
+			name = maps;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +255,7 @@
 				73BD26181E1164B10020EA8D /* LaunchScreen.storyboard in Resources */,
 				73BD26151E1164B10020EA8D /* Assets.xcassets in Resources */,
 				73BD26101E1164B10020EA8D /* Main.storyboard in Resources */,
+				1BA48FC14C8845292B17C132 /* MapPage.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73BD260D1E1164B10020EA8D /* ViewController.swift in Sources */,
+				73BD263C1E1166610020EA8D /* YandexMap.swift in Sources */,
 				73BD260B1E1164B10020EA8D /* AppDelegate.swift in Sources */,
 				73BD26131E1164B10020EA8D /* YandexMap.xcdatamodeld in Sources */,
 			);
